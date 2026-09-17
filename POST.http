@@ -1,0 +1,10 @@
+### Cadastrar Filme
+POST http://127.0.0.1:8080/api/filmes
+Content-Type: application/json
+
+{
+  "titulo": "Interestelar",
+  "sinopse": "Um grupo de astronautas viaja pelo espaço.",
+  "duracao": 169,
+  "classificacao": "10 anos"
+}
